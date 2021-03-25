@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Vetrox</string>
+    <string name="resend_otp" translatable="false">Resend OTP</string>
+
+    <string name="buy_product">Buy Product</string>
+    <string name="consult_now">Consult Now</string>
+    <string name="a" translatable="false">A/अ </string>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.InvolvedActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_marginTop="70dp"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:src="@drawable/croppedlogo"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/involvedActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-10dp"
+        android:text="Select an Activity"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:layout_margin="50dp"
+        android:id="@+id/radioGroup"
+        android:layout_below="@+id/involvedActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <RadioButton
+            android:id="@+id/rd_btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Poultry Farming"
+            android:textSize="17sp"
+            />
+
+        <RadioButton
+            android:id="@+id/rd_btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dairy Farming"
+            android:textSize="17sp"
+            />
+        <RadioButton
+            android:id="@+id/rd_btn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Goat Farming"
+            android:textSize="17sp"
+            />
+        <RadioButton
+            android:id="@+id/rd_btn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fish Farming"
+            android:textSize="17sp"
+            />
+        <RadioButton
+            android:id="@+id/rd_btn5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pig Farming"
+            android:textSize="17sp"
+            />
+        <RadioButton
+            android:id="@+id/rd_btn6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agriculture"
+            android:textSize="17sp"
+            />
+        <RadioButton
+            android:id="@+id/rd_btn7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Other"
+            android:textSize="17sp"
+            />
+    </RadioGroup>
+    <Button
+        android:id="@+id/next_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/radioGroup"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Next"
+        android:background="@drawable/buttonbackground"
+        android:textColor="#ffffff"/>
+
+</RelativeLayout>

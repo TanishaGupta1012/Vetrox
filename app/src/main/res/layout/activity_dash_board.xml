@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.DashBoardActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_margin="6dp"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:src="@drawable/croppedlogo"/>
+
+    <Button
+        android:id="@+id/changeLanguage"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/notification"
+        android:background="@drawable/buttonbackground"
+        android:layout_marginTop="21dp"
+        android:text="@string/a"
+        android:textColor="#ffffff"/>
+
+    <ImageButton
+        android:layout_marginEnd="5dp"
+        android:id="@+id/notification"
+        android:layout_width="20dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_notifications_black_24dp"
+        android:layout_marginTop="15dp"
+        android:background="#ffffff"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp" />
+
+    <Button
+        android:layout_marginStart="3dp"
+        android:id="@+id/btn_consult"
+        android:background="@drawable/buttonbackground"
+        android:text="@string/consult_now"
+        android:textColor="#ffffff"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="3dp" />
+    <Button
+        android:layout_marginEnd="3dp"
+        android:id="@+id/btn_buy_product"
+        android:background="@drawable/buttonbackground"
+        android:text="@string/buy_product"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/btn_consult"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="3dp" />
+
+</RelativeLayout>

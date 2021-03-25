@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "601599465072",
+    "firebase_url": "https://vetrox-e0900.firebaseio.com",
+    "project_id": "vetrox-e0900",
+    "storage_bucket": "vetrox-e0900.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601599465072:android:c51e7b90ad5e739c9486b5",
+        "android_client_info": {
+          "package_name": "com.example.vetrox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "601599465072-7p36sjmevkbh1rv6hm8souner3l5oirr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vetrox",
+            "certificate_hash": "c0d92854df1db4a2658eb421afba0e7efe6fa48f"
+          }
+        },
+        {
+          "client_id": "601599465072-6a5u15q5kmtqg09o1p46uk1k7a3jqgt0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRaesYdVFP_ekjZ_3Z5ePjfvkvC-dNb-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "601599465072-6a5u15q5kmtqg09o1p46uk1k7a3jqgt0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
